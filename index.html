@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function-Arrays</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-box">
+            <h1>JS Palindrome Func</h1>
+            <div>
+                <label for="text-check-1" class="label-styling">Enter Your Text : </label>
+                <input type="text" name="text-check-1" id="text-check-1" class="input-box">
+            </div>
+            <input type="button" value="Check for Palindrome" id="check-btn-1" class="submit-btn">
+        </div>
+        <div class="main-box">
+            <h1>JS Alphabetical Order Func</h1>
+            <div>
+                <label for="text-check-2" class="label-styling">Enter Your Text : </label>
+                <input type="text" name="text-check-2" id="text-check-2" class="input-box">
+            </div>
+            <input type="button" value="Set in Alphabetical Order" id="check-btn-2" class="submit-btn">
+            <textarea class="out-text" name="ouput-alpha-order" id="ouput-alpha-order" cols="40" rows="4"
+                disabled></textarea>
+        </div>
+        <div class="main-box">
+            <h1>JS Average Marks Func</h1>
+            <div class="input">
+                <div class="sub-input">
+                    <label for="marks-1" class="label-styling">Enter Marks for Science : </label>
+                    <input type="tel" name="marks-1" id="marks-1" class="input-box input-width" pattern="[1-9]{3}"
+                        maxlength="3">
+                </div>
+                <div class="sub-input">
+                    <label for="marks-2" class="label-styling">Enter Marks for Maths : </label>
+                    <input type="tel" name="marks-2" id="marks-2" class="input-box input-width" pattern="[1-9]{3}"
+                        maxlength="3">
+                </div>
+                <div class="sub-input">
+                    <label for="marks-3" class="label-styling">Enter Marks for CS : </label>
+                    <input type="tel" name="marks-3" id="marks-3" class="input-box input-width" pattern="[1-9]{3}"
+                        maxlength="3">
+                </div>
+            </div>
+
+            <input type="button" value="Check Average" id="check-btn-3" class="submit-btn">
+            <textarea class="out-text-avg" name="ouput-average" id="ouput-average" cols="20" rows="1"
+                disabled></textarea>
+        </div>
+    </div>
+
+    <script src="script.js" type="text/Javascript"></script>
+</body>
+
+</html>
